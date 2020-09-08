@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    width: 850px;
+    max-width: 100%;
+    margin: 150px auto;
+    background-color: hsl(204, 43%, 93%);
+}
+header{
+    padding: 50px 40px;
+    background-color: white;
+}
+h1{
+    padding-bottom: 15px;
+    color: hsl(179, 62%, 43%);
+}
+h2{
+    color: hsl(71, 73%, 54%);
+    padding: 15px 0;
+}
+header p{
+    font-size: 19px;
+    opacity: .6;
+    line-height: 25px;
+    width: 695px;
+    max-width: 100%;
+}
+.second-line-container{
+    display: flex;
+}
+.section-1{
+    color: white;
+    flex-basis: 50%;
+    padding: 30px;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 2px;
+}
+span{
+    padding-top: 20px;
+    opacity: 0.5;
+    font-size: 20px;
+}
+h3{
+    font-size: 22px;
+}
+#dollar{
+    padding-top: 20px;
+    font-size: 40px;
+}
+#section-1-p{
+    font-size: 21px;
+    margin: 3px 0 20px 0;
+}
+.section-2{
+    padding: 30px;
+    flex-basis: 50%;
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 45px;
+    box-shadow: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+.section-2{
+    color: white;
+    flex-basis: 50%;
+    padding: 30px;
+    background-color: hsl(179, 58%, 47%);
+    border-radius: 2px;
+}
+.section-2 p{
+    padding: 20px 0;
+    font-size: 19px;
+    opacity: 0.7;
+    width: 290px;
+    line-height: 24px;
+}
+@media (max-width: 700px){
+    .second-line-container{
+        flex-direction: column;
+    }
+}
